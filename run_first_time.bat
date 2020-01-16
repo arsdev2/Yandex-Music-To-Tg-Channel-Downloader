@@ -1,2 +1,2 @@
-python main.py first
+python3 main.py first
 pause

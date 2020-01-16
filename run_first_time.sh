@@ -1,3 +1,3 @@
 #!/bin/sh
-python main.py first
+python3 main.py first
 read -p "Press any key to continue..."
