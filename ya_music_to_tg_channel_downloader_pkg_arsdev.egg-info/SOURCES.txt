@@ -1,0 +1,6 @@
+README.rst
+setup.py
+ya_music_to_tg_channel_downloader_pkg_arsdev.egg-info/PKG-INFO
+ya_music_to_tg_channel_downloader_pkg_arsdev.egg-info/SOURCES.txt
+ya_music_to_tg_channel_downloader_pkg_arsdev.egg-info/dependency_links.txt
+ya_music_to_tg_channel_downloader_pkg_arsdev.egg-info/top_level.txt
