@@ -4,11 +4,11 @@ Yandex-Music-To-Tg-Channel-Downloader
 Скачает музыку из яндекс музыки со всех плейлистов пользователя и загрузит в телеграмм канал
 
 .. image:: https://img.shields.io/pypi/v/yandex-music.svg
-   :target: https://pypi.org/project/yandex-music/
+   :target: https://pypi.org/project/ya-music-to-tg-channel-downloader-pkg-arsdev/0.0.3/
    :alt: Версия пакета PyPi
 
 .. image:: https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8-blue.svg
-   :target: https://pypi.org/project/yandex-music/
+   :target: https://pypi.org/project/ya-music-to-tg-channel-downloader-pkg-arsdev/0.0.3/
    :alt: Поддерживаемые Python версии
 
 .. image:: https://codecov.io/gh/MarshalX/yandex-music-api/branch/development/graph/badge.svg
