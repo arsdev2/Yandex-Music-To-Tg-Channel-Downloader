@@ -6,8 +6,11 @@ Yandex-Music-To-Tg-Channel-Downloader
 .. image:: https://img.shields.io/pypi/v/yandex-music.svg
    :target: https://pypi.org/project/yandex-music/
    :alt: Версия пакета PyPi
+   
+   
 ==========
 How to use
+==========
 
 Мин. версия Python - 3.6
 
