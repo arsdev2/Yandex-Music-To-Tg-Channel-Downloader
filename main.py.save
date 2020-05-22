@@ -1,6 +1,5 @@
 from yandex_music.client import Client
-from yandex_music.utils.captcha_response import CaptchaResponse
-from yandex_music.exceptions import CaptchaRequired
+import yandex_music.utils. impo
 import requests
 import os
 import time
@@ -66,11 +65,10 @@ def startDownloading():
     print("Feching metadata...")
     try:
         client = Client.from_credentials(YA_LOGIN, YA_PASS)
-    except CaptchaRequired as e:
-        print(e.captcha.x_captcha_url)
-        captchaKey = input("Entered captcha value: ")
-        print(captchaKey)
-        client = Client.from_credentials(YA_LOGIN, YA_PASS, captchaKey, e.captcha.x_captcha_key)
+    except CaptchaResponse as e:
+        print(e.x_captcha_url)
+        input("Entered captcha?")
+        main()
     playlists = client.users_playlists_list();
 
     for playlist in playlists:
@@ -121,4 +119,4 @@ def main():
         setupChatId()
         readConf()        
     startDownloading()
-main
+main()
